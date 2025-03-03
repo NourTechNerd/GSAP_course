@@ -10,19 +10,19 @@ const config = {
     theme: {
         extend: {
             screens: {
-                sm: "475px",
-			    md: "768px",
-				lg: "1024px",
+                sm: "320px", //Mobiles
+			    md: "768px", // Tablets
+				lg: "1024px", // Laptops
             },
             colors:{
-                blue :'#2997FF',
-                gray: {
+                first :'#2997FF',
+                second: {
                     DEFAULT: "#86868b",
                     100: "#94928d",
                     200: "#afafaf",
-                    300: "#42424570",
+                    300: "#94938c",
                   },
-                  zinc: "#101010",
+                  third: "#101010",
             }
         
            
