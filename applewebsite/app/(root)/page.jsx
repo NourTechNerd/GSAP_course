@@ -1,10 +1,14 @@
 import React from 'react'
-import assets from '../../utils/utilitis';
-
+import Navbar from '@/components/Navbar';
+import Highlights from '@/components/Highlights';
+import Hero from '@/components/Hero';
 
 export default function rootPage() {
   return (
-    <div>rootPage
+    <div>
+       <Navbar  />
+       <Highlights  />
+       <Hero  />
       
     </div>
   )
