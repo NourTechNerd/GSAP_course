@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className='flex flex-row gap-3 md:gap-10'>
           {
             Navs.map((nav,index)=>
-              <div key={index} className='text-[11px] md:text-[22px] text-second'>
+              <div key={index} className='text-[11px] md:text-[22px] text-primar'>
                  {nav}
               </div>
             )
