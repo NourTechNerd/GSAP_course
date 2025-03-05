@@ -2,40 +2,29 @@
 const config = {
     content: [
        
-        "./components/**/*.{js,ts,jsx,tsx,mdx}",
-        "./app/**/*.{js,ts,jsx,tsx,mdx}",
-        "./sanity/**/*.{js,ts,jsx,tsx,mdx}",
+        "./components/**/*.{jsx,js}",
+        "./app/**/*.{jsx,js}",
+       
     ],
     theme: {
         extend: {
             screens: {
-                sm: "475px",
-			    md: "768px",
-				lg: "1024px",
+                sm: "320px", //Mobiles
+			    md: "768px", // Tablets
+				lg: "1024px", // Laptops
             },
-            colors: {
-                primary: {
-                    "100": "#FFE8F0",
-                    DEFAULT: "#EE2B69",
-                },
-                secondary: "#FBE843",
-                black: {
-                    "100": "#333333",
-                    "200": "#141413",
-                    "300": "#7D8087",
-                    DEFAULT: "#000000",
-                },
-                white: {
-                    "100": "#F7F7F7",
-                    DEFAULT: "#FFFFFF",
-                },
-            },
-            fontFamily: {
-               
-            },
-        },
+            colors:{
+                first :'#2997FF',
+                second: {
+                    DEFAULT: "#86868b",
+                    100: "#94928d",
+                    200: "#afafaf",
+                    300: "#94938c",
+                  },
+                  third: "#101010",
+            }
     },
     plugins: [],
-};
-
+}
+}
 export default config;
