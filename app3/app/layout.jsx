@@ -1,15 +1,10 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Blinker } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const blinker = Blinker(
+  { subsets: ["latin"], 
+    weight: ["400", "700",'900'], 
+    variable: "--font-blinker" });
 
 export const metadata = {
   title: "Apple iphone",
@@ -20,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
+        className={`${blinker.variable} bg-black`}
       >
         {children}
       </body>

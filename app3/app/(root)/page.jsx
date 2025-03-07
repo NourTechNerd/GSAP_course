@@ -5,10 +5,11 @@ import Hero from '@/components/Hero';
 
 export default function rootPage() {
   return (
-    <div>
+    <div className='h-full w-full'>
        <Navbar  />
-       <Highlights  />
        <Hero  />
+       <Highlights  />
+       
       
     </div>
   )

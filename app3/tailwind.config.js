@@ -22,6 +22,9 @@ const config = {
                     300: "#94938c",
                   },
                   third: "#101010",
+            },
+            fontFamily: {
+				blinker: ["var(--font-blinker)"],
             }
     },
     plugins: [],
