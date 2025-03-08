@@ -32,7 +32,7 @@ export default function Highlights() {
   })
 
   return (
-    <section id = 'highlights' className='w-full bg-third h-full flex flex-col items-center'>
+    <section id = 'highlights' className='flex flex-col items-center bg-third'>
       <div className='flex flex-col md:flex-row md:justify-between items-center'>
         <h1 id='title' className='font-blinker text-second-100 font-bold text-xl md:text-3xl m-3 mt-10'>Get the hightlights</h1>
         

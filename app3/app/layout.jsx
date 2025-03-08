@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${blinker.variable} bg-black`}
+        className={`${blinker.variable}`}
       >
         {children}
       </body>
